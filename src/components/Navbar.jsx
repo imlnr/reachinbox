@@ -24,7 +24,9 @@ const Navbar = () => {
                     <img src={bar} alt="" />
                 </div>
             </div>
-            <div className='profile'>LN</div>
+            <div className='profile'>
+                LN
+            </div>
         </div>
     )
 }

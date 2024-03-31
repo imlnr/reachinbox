@@ -1,8 +1,37 @@
-.dashboard{
+.dashboard {
     display: flex;
     height: 100vh;
 }
-.content{
+
+.content {
     border: 1px solid;
     width: 100%;
+}
+
+.dash-head {
+    border: 1px solid;
+    height: 64px;
+}
+
+.dash-head,
+.dash-head-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2%;
+}
+
+.dash-head-in {
+    /* padding: 0% 2%; */
+    /* border: 1px solid; */
+    /* gap: 3%; */
+    width: 14%;
+}
+
+.dash-head>span {
+    font-size: 20px;
+}
+
+select {
+    border: none;
 }
