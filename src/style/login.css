@@ -1,0 +1,60 @@
+.head {
+    background-color: black;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    height: 32px;
+    background-color: #121212;
+    color: #5C5F66;
+}
+
+.log-card {
+    height: calc(100vh - 96px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.log-card-inn {
+    border: 1px solid #343A40;
+    min-width: 460px;
+    min-height: 312px;
+    border-radius: 17px;
+    color: white;
+    padding: 24px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+.google-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid #707172;
+    padding: 8px 16px;
+    width: 80%;
+    border-radius: 4px;
+}
+
+.create-acc {
+    padding: 13px 35px;
+    width: 42.3%;
+    background: linear-gradient(to right, #4B63DD, #0524BFFC);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.log-p-2,.log-p-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+}
