@@ -1,0 +1,39 @@
+.nav-bar {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.nav-first{
+    height: 70vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 80px;
+}
+.logo-img{
+    align-self: self-start;
+    width: 50px;
+}
+.profile {
+    background-color: green;
+    border-radius: 50%;
+    padding: 25%;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    height: 100%;
+    align-items: center;
+    /* padding: 20% 0; */
+}
