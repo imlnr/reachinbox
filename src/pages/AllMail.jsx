@@ -1,9 +1,111 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Input, Typography } from '@mui/material'
 import React from 'react'
 import RefreshIcon from '@mui/icons-material/Refresh';
 import { useSelector } from 'react-redux';
+import Message from '../components/Message';
 const AllMail = () => {
   const theme = useSelector((prev) => prev.theme);
+  const msgs = [{
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  },
+  {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  },
+  {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  },
+  {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  },
+  {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  }, {
+    mailid: "Beata@gmail.com",
+    data: "Mar 7",
+    msg: "I've Tried a lot and.",
+    status: "interested",
+    campaginName: "Campaign Name"
+  },]
   return (
     <>
       <Box sx={{ border: "1px solid", display: "grid", gridTemplateColumns: "repeat(5,1fr)", height: "calc(100vh - 64px)" }}>
@@ -18,6 +120,15 @@ const AllMail = () => {
             </Box>
           </Box>
           <Typography>25/25 Inboxes selected</Typography>
+          {/* <Input type='text' placeholder='Search here..'/> */}
+          <input type="text" style={{ width: "100%", borderRadius: "5px", padding: "2%" }} placeholder='Search here..' />
+          <Box sx={{ overflow: "scroll" ,height:"70vh",overflowX:"hidden"}}>
+            {
+              msgs.map((ele, ind) => (
+                <Message data={ele} />
+              ))
+            }
+          </Box>
         </Box>
         <Box sx={{ border: "1px solid", gridColumn: "2/span 3" }}>
 
