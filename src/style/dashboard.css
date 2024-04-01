@@ -22,10 +22,7 @@
 }
 
 .dash-head-in {
-    /* padding: 0% 2%; */
-    /* border: 1px solid; */
-    /* gap: 3%; */
-    width: 14%;
+    width: 18%;
 }
 
 .dash-head>span {
@@ -34,4 +31,9 @@
 
 select {
     border: none;
+    background-color: transparent;
+}
+
+option {
+    background-color: black;
 }

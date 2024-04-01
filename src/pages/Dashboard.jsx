@@ -1,11 +1,15 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import "../style/dashboard.css"
-import ThemeToggle from '../components/ThemeToggle'
-import MailRoutes from '../Allroutes/MailRoutes'
+import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
+import "../style/dashboard.css";
+import ThemeToggle from '../components/ThemeToggle';
+import { useSelector } from 'react-redux';
+
 const Dashboard = () => {
+    const [ismailhome, setmailhome] = useState(false);
+    const theme = useSelector(state => state.theme);
+
     return (
-        <div className='dashboard'>
+        <div className='dashboard' style={theme ? { backgroundColor: "black", color: "white", transition: "all 0.3s ease" } : { transition: "all 0.3s ease" }}>
             <Navbar />
             <div className='content'>
                 <div className='dash-head'>
@@ -20,12 +24,11 @@ const Dashboard = () => {
                         </select>
                     </div>
                 </div>
-                <div className='main-content'>
-                    <MailRoutes />
-                </div>
+                {/* <div className='main-content'> */}
+                {/* </div> */}
             </div>
         </div>
-    )
+    );
 }
 
-export default Dashboard
+export default Dashboard;

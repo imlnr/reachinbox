@@ -1,8 +1,8 @@
 import React from 'react'
-import Head from './components/Head'
-import Foot from './components/Foot'
+import Head from '../components/Head'
+import Foot from '../components/Foot'
 import { Button } from '@chakra-ui/react'
-import google from "./assets/Frame.png"
+import google from "../assets/Frame.png"
 import { Link } from 'react-router-dom'
 const Login = () => {
     return (
