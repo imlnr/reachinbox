@@ -122,7 +122,7 @@ const AllMail = () => {
           <Typography>25/25 Inboxes selected</Typography>
           {/* <Input type='text' placeholder='Search here..'/> */}
           <input type="text" style={{ width: "100%", borderRadius: "5px", padding: "2%" }} placeholder='Search here..' />
-          <Box sx={{ overflow: "scroll" ,height:"70vh",overflowX:"hidden"}}>
+          <Box sx={{ overflow: "scroll" ,height:"70vh",overflowX:"hidden",marginTop:"20px"}}>
             {
               msgs.map((ele, ind) => (
                 <Message data={ele} />
