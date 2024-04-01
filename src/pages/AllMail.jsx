@@ -3,11 +3,11 @@ import React from 'react'
 import RefreshIcon from '@mui/icons-material/Refresh';
 import { useSelector } from 'react-redux';
 const AllMail = () => {
-  const theme = useSelector((prev)=>prev.theme);
+  const theme = useSelector((prev) => prev.theme);
   return (
     <>
       <Box sx={{ border: "1px solid", display: "grid", gridTemplateColumns: "repeat(5,1fr)", height: "calc(100vh - 64px)" }}>
-        <Box sx={{ border: "1px solid" ,padding:"4%"}}>
+        <Box sx={{ border: "1px solid", padding: "4%" }}>
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", border: "1px solid", padding: "1% 0" }}>
             <select name="workspace" id="workspace">
               <option value="ln's Workspace">All Inbox(s)</option>
