@@ -1,6 +1,6 @@
 import React from 'react'
 import img from "../assets/head.png";
-import "../style/login.css"
+// import "../style/login.css"
 const Head = () => {
     return (
         <div className='head'>

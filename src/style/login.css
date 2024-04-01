@@ -34,26 +34,6 @@
     gap: 40px;
 }
 
-.google-btn {
-    background-color: black;
-    color: white;
-    border: 1px solid #707172;
-    padding: 8px 16px;
-    width: 80%;
-    border-radius: 4px;
-    height: 48px;
-}
-
-.create-acc {
-    padding: 13px 35px;
-    width: 42.3%;
-    background: linear-gradient(to right, #4B63DD, #0524BFFC);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    height: 48px;
-}
-
 .log-p-2,
 .log-p-1 {
     display: flex;
