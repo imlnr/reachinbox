@@ -37,3 +37,7 @@
     align-items: center;
     /* padding: 20% 0; */
 }
+.nav-items>img{
+    padding: 2%;
+    cursor: pointer;
+}

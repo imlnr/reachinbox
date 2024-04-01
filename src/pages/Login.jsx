@@ -17,7 +17,7 @@ const Login = () => {
                         <StyledButton variant="contained" sx={{
                             backgroundColor: 'black',
                             color: 'white',
-                            border: '1px solid white',
+                            border: '1px solid #707172',
                             padding: '8px 16px',
                             width: '90%',
                             borderRadius: '4px',

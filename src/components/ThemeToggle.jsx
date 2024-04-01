@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../style/theme.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_THEME_CHANGE } from '../redux/AppReducer/action-type';
