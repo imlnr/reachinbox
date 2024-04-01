@@ -6,19 +6,20 @@
     align-items: center;
     padding: 0.5%;
 }
-.nav-first{
+
+.nav-first {
     height: 70vh;
-    /* border: 1px solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
     gap: 80px;
 }
-.logo-img{
+
+.logo-img {
     align-self: self-start;
     width: 50px;
 }
+
 .profile {
     background-color: green;
     border-radius: 50%;
@@ -37,7 +38,8 @@
     align-items: center;
     /* padding: 20% 0; */
 }
-.nav-items>img{
+
+.nav-items>img {
     padding: 2%;
     cursor: pointer;
 }
